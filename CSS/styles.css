@@ -4,7 +4,34 @@
     box-sizing: border-box;
 }
 
-/*logo de pagina*/
+.img-container {
+    height: 60vh;
+}
+
+.pelicula-poster{
+    height: 100%;
+}
+
+.image-pelicula-container{
+    max-height: 40vh;
+}
+
+.mt-20{
+    margin-top: 20%;
+}
+
+.marvel{
+    background-image: url(../img/comicjpg.jpg);
+}
+
+.banner-img{
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/marvel-banner.jpeg); 
+}
 .top {
     width: 100%;
     
@@ -63,16 +90,7 @@ body {
 }
 
 
-h1 {
-    font-size: 50px;
-    text-transform: uppercase;
-    font-family: marvel;
-    color: rgb(255, 0, 13);
-    text-align: center;
-    padding: 20px;
 
-
-}
 
 .seccion1 {
     background-image: url("../img/marvel-primerfondo.jpg");
@@ -105,22 +123,8 @@ h1 {
 
 }
 
-/*footer*/
-#subir {
-    text-align: center;
-    padding: 5px;
-}
 
-footer {
-    background-color: #be7ff9;
-    height: 80px;
 
-    position: fixed;
-
-    left: 0;
-    width: 100%;
-    bottom: 0;
-}
 
 
 h2 {
