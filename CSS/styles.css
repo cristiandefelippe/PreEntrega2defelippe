@@ -32,50 +32,9 @@
     background-position: center;
     background-image: url(../img/marvel-banner.jpeg); 
 }
-.top {
-    width: 100%;
-    
-    top: 0;
-    position: absolute;
-}
-.logo {
-   
-    width: 10px;
-    border-radius: 50%;
-    text-align: center;
 
-}
 
-/*menu de navegacion */
-.menu {
-    list-style-type: none;
-    background-color: rgb(150, 17, 17);
-    padding: 0;
-    width: 100%;
-    text-align: center;
-    color: white;
 
-}
-
-.menu .item {
-    display: inline-block;
-    position: relative;
-    font-size: 1rem;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.menu .item a {
-    color: black;
-    text-decoration: none;
-    font-weight: bolder;
-    display: inline-block;
-    padding: 20px;
-}
-
-.menu .item a:hover {
-    color: aliceblue;
-}
 
 /*body*/
 body {
@@ -92,49 +51,3 @@ body {
 
 
 
-.seccion1 {
-    background-image: url("../img/marvel-primerfondo.jpg");
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 30px;
-    margin: 50px;
-
-}
-
-.seccion1 p {
-    text-align: center;
-    color: white;
-    text-decoration-color: blue;
-}
-
-.seccion2 {
-
-    padding: 30px;
-    margin: 50px;
-}
-
-.seccion2 p {
-    text-align: center;
-    color: black;
-    text-decoration-color: blue;
-
-}
-
-
-
-
-
-h2 {
-    color: blueviolet;
-    text-align: center;
-    padding: 10px;
-}
-
-h3 {
-    color: blueviolet;
-    text-align: center;
-    padding: 10px;
-}

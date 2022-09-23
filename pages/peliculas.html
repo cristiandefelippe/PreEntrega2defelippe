@@ -4,73 +4,114 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
 
 
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+
     <!-- titulo de la pagina-->
     <title>Marvel Studio</title>
     <!-- icono en titulo de la pagina-->
     <link rel="icon" href="../img/icons8-vengadores-40.png">
 
+
     <!-- link css-->
     <link rel="stylesheet" href="../CSS/styles.css">
 
 
-    <div id="top">
-
-
-    </div>
-
 </head>
 
 <body>
-    <header>
-
-        <div id="subir">
-            
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Marvel Studio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="../index.html">Inicio</a>
+                <a class="nav-item nav-link" href="trailers.html">Trailers</a>
+                <a class="nav-item nav-link" href="formaParteDeMarvel.html">Forma parte de marvel</a>
+                <a class="nav-item nav-link  active" href="peliculas.html">
+                    Peliculas</a>
+                <a class="nav-item nav-link " href="contacto.html">
+                    Contacto</a>
+            </div>
         </div>
+    </nav>
 
-        <!--- menu de navegacion-->
-        <nav class="top">
-            <ul class="menu">
+    <div class="container mt-5">
 
-
-                <li class="item">
-                    <a href="../index.html">inicio</a>
-                </li>
-                <li class="item">
-                    <a href="trailers.html">trailers</a>
-                </li>
-                <li class="item">
-                    <a href="formaParteDeMarvel.html">filmografia</a>
-
-                </li>
-                <li class="item">
-                    <a href="series.html">series</a>
-
-                </li>
-
-                <li class="item">
-                    <a href="contacto.html">contacto</a>
-                </li>
-
-            </ul>
-        </nav>
-
-    </header>
-
-
-    <footer>
-        <h2>
-            Pagina creada por Cristian Defelippe
-
-
-        </h2>
-
-
-        <a href="#subir">
-            <h3>subir</h3>
-        </a>
-
-
-    </footer>
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="../img/thor-pelicula.jpeg" class="card-img">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h1 class="card-title">Thor</h1>
+                                <p class="card-text">Tras desatar una antigua guerra, el codicioso guerrero Thor es
+                                    desterrado a la Tierra por su padre
+                                    para que viva entre los hombres y descubra así el verdadero sentido de la humildad.
+                                </p>
+                                <p> Allí, sin sus poderes, Thor deberá enfrentarse a las fuerzas más oscuras que su
+                                    mayor enemigo le enviará desde Asgard.</p>
+                                <p class="card-text"><small class="text-muted">Estrenada en 2011</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="../img/capitan-pelicula.jpeg" class="card-img">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h1 class="card-title">Capitan America</h1>
+                                <p class="card-text">Tras tres meses de someterse a un programa de entrenamiento físico
+                                    y táctico, Steve Rogers es encomendado su primera misión como Capitán América.</p>
+                                <p> Armado con un escudo indestructible, emprenderá la guerra contra el Mal como líder
+                                    de los Vengadores.</p>
+                                <p class="card-text"><small class="text-muted">Estrenada en 2011</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="../img/ironman-pelicula.jpg" class="card-img">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h1 class="card-title">Iron Man</h1>
+                                <p class="card-text">Tony Stark es un inventor de armamento brillante que es secuestrado
+                                    en el extranjero. </p>
+                                <p> Sus captores son unos terroristas que le obligan a construir una máquina destructiva
+                                    pero Tony se construirá una armadura para poder enfrentarse a ellos y escapar.</p>
+                                <p class="card-text"><small class="text-muted">Estrenada en 2008</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- linck jscript-->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!--  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script> -->
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
